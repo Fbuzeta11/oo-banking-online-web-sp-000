@@ -12,8 +12,8 @@ class BankAccount
     @balance += account 
   end
     
-    def display_balance
-      puts "Your balance is $1000."
+    def display_balance(balance)
+      puts "Your balance is $#{@balance}."
     end
     
     def valid?
